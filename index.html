@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Coffee</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sweet Coffee</h1>
+    </header>
+    <form>
+        <input type="text" class="coffee-input" />
+        <button class="coffee-button" type="submit">
+            <i class="fas fa-plus-square">+</i>
+        </button>
+    <div class="select">
+        <select name="coffees" class="filter-coffee">
+            <option value="all">All</option>
+            <option value="completed">Completed</option>
+            <option value="uncompleted">Uncompleted</option>
+        </select>
+    </div>  
+    </form>
+    <div class="coffee-container">
+        <ul class="coffee-list">
+        </ul>
+    </div>
+
+</body>
+</html>
