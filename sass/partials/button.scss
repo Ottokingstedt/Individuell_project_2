@@ -1,0 +1,56 @@
+
+#transaction li button {
+    background: #828282;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 10px;
+    transition: all 1s ease;
+
+}
+
+#transaction li button:hover{
+    opacity: 0.5;
+    letter-spacing: 3px;
+
+}
+
+.remove{
+   opacity: 0.5;
+} 
+
+#transaction:hover {
+    opacity: 0.5;
+}
+
+
+.form-container input, form button{
+    padding: 20px;
+    margin: 2%;    
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
+    color: whitesmoke;
+    border-radius: 3px;
+    margin: 5px;
+}
+
+.form-container button{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 15px 35px  rgba(0,0,0,0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    color: whitesmoke;
+    z-index: 1;
+    cursor: pointer; 
+    text-decoration: none;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+.form-container button:hover {
+    letter-spacing: 3px;
+    opacity: 50%;
+}

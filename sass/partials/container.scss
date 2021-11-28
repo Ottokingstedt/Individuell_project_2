@@ -1,0 +1,47 @@
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+} 
+.balance-container h2 {
+    text-transform: uppercase;
+
+}
+
+.balance-container #balance{ 
+    font-size: 4.5rem;
+    margin-bottom: 150px;
+    margin-top: 200px;
+
+}
+.cashflow-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.income-container {
+    padding-right: 10px;
+    
+}
+
+.expense-container {
+    padding-left: 10px;
+}
+
+#income, #expense {
+    font-size: 2.3rem;
+}
+
+#income {
+    color: var(--income);
+}
+
+#expense {
+    color: var(--expense);
+}
+

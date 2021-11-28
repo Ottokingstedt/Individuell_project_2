@@ -1,0 +1,19 @@
+.v-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-overlay {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:1;
+
+}
+.header-content section{
+    z-index: 2;
+}

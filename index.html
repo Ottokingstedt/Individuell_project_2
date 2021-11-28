@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Income & Expense</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<!-- Start animation background -->
+
+    <header class = "v-header container">
+        <div class="fullscreen-video-wrap">
+    
+    
+            <video playsinline autoplay muted loop>
+
+                <source src="./animation_BG_2_CSSHTML.webm" type="video/webm">
+
+            </video>
+        </div>
+        <div class="header-overlay">
+            <div class="header-content">
+
+<!-- End animation background -->
+
+<!-- Start Balance -->
+
+                <div class="balance-container">
+                    <div id="balance"></div>
+                </div>
+                    <div class="form-container">
+                    <form>
+                        <label for="name">Description</label>
+                        <input id="description" type="text">
+                        <label for="amount">Amount</label>
+                        <input id="amount" type="number">
+                        <button id="incomeBtn">Add Income</button>
+                        <button id="expenseBtn">Add Expense</button>
+                    </form>
+                </div> 
+                <div class="cashflow-container">
+                    <div class="income-container">
+                        <h3>Income</h3>
+                        <div id="income"></div>
+                    </div>
+                    <div class="expense-container">
+                        <h3>Expense</h3>
+                        <div id="expense"></div>
+                    </div>
+                </div>
+                
+<!-- End Balance   -->
+
+<!-- Start Transaction -->
+
+                <div class="transaction-container">
+                    <ul id="transaction">
+                    </ul>      
+                </div>
+
+<!-- End Transaction -->
+            </div>
+        </div>
+    </header>
+<script src="index.js"></script>
+</body>
+</html>
+

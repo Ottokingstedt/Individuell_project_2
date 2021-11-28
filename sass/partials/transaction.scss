@@ -1,0 +1,38 @@
+.transaction {
+    min-width: 30%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#transaction li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    flex: 1;
+    font-size: 1.25rem;
+    transition: all 5s ease;
+}
+
+#transaction li span {
+    display: inline-block;
+    color: black;
+    padding: 12px; 
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    transition: all 5s ease;
+
+
+}
+
+#transaction li .income-amt {
+    background-color: var(--income);
+    
+}
+#transaction li .expense-amt {
+    background-color: var(--expense);
+ 
+}

@@ -1,0 +1,16 @@
+{
+  "name": "inlamningsuppgift-income-expense-project",
+  "version": "1.0.0",
+  "description": "// scripts: { \"start\"\" \"node-sass sass/main.scss css/main.css -w\"     \"test\" \"echo \\ \"error: no test specified\\\" && exit 1\" }",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-sass sass/main.scss css/main.css -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  },
+  "devDependencies": {}
+}
